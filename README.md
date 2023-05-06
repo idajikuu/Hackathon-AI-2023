@@ -57,7 +57,10 @@ Query =  ['Moroccan room design ideas',
  
 <h2> 2- Preprocessing </h2>
  For a better read into our data we do some basic visualization of character count and word frequency to get an idea on the bias of the text generator.
- 
+ <div style="display:flex;">
+  <img src="./img/Figure2.png" width="400"  height="300" />
+  <img src="./img/Figure3.png" width="400" height="300" /> 
+</div>
  Removing punctuations and numbers for textual captions also resizing images to a more unified and standard size 512*512 for a better model accuracy.
 
 
