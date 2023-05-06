@@ -26,8 +26,7 @@ Our project consists of three main processes: data scraping, preprocessing, and 
 
 
 <h2>1- Scraping</h2>
-
-Scraping 45 images from each Query 
+The first axis of the project involved scraping 45 images from each of the 23 queries related to Moroccan interior design, resulting in a total of 1035 images. For each image, a corresponding img {count}.txt file was created to store the title of the image. The data was then split into two files: Bs4_Images and captions, which were used in the preprocessing step.
 ```python
 Query =  ['Moroccan room design ideas',
     'Moroccan bedroom design ideas',
@@ -53,13 +52,21 @@ Query =  ['Moroccan room design ideas',
     'Moroccan textile patterns for decor', 
     'Moroccan wrought iron furniture design ideas']
  ```   
- In total we will have 23 Query x approx~45 that will make it 1035 images with its corresponding img {count}.txt file that will have the title of each image, and we will seperate the two into two files Bs4_Images and captions.
+
  
 <h2> 2- Preprocessing </h2>
  
  Removing punctuations and numbers for textual captions also resizing images to a more unified and standard size 512*512 for a better model accuracy.
- 
- <h2> 3- Deploying data in the fast diffusion model</h2>
+
+
+<h2> 3- Dreambooth 1.5</h2>
+The second axis of the project involved utilizing the cutting-edge diffusion 1.5 algorithm, also known as Dreambooth 1.5, to generate culturally-inspired interior designs. This algorithm is capable of generating high-quality, diverse images while maintaining the structure and style of the input data. By leveraging this powerful algorithm, we were able to create designs that seamlessly integrate intricate Moroccan patterns, vibrant colors, and luxurious textures.
+
+<h2>  4- FineTuning with Stable diffusion</h2>
+The third axis of the project involved fine-tuning the Dreambooth 1.5 model with a stable diffusion process to further improve the quality of the generated images. This process involves gradually increasing the level of noise in the input data, which helps to smooth out any inconsistencies or artifacts in the generated images.
+
+<h2> 5- Model Training </h2>
+The final axis of the project involved training the model on the preprocessed data to learn the patterns and styles of Moroccan interior design. By training the model on a large and diverse dataset, we were able to create a highly accurate and robust model that is capable of generating high-quality interior designs that are faithful to the Moroccan aesthetic.
  
  
  
