@@ -27,6 +27,7 @@ Our project consists of three main processes: data scraping, preprocessing, and 
 
 <h2>1- Scraping</h2>
 The first axis of the project involved scraping 45 images from each of the 23 queries related to Moroccan interior design, resulting in a total of 1035 images. For each image, a corresponding img {count}.txt file was created to store the title of the image. The data was then split into two files: Bs4_Images and captions, which were used in the preprocessing step.
+
 ```python
 Query =  ['Moroccan room design ideas',
     'Moroccan bedroom design ideas',
@@ -55,6 +56,7 @@ Query =  ['Moroccan room design ideas',
 
  
 <h2> 2- Preprocessing </h2>
+ For a better read into our data we do some basic visualization of character count and word frequency to get an idea on the bias of the text generator.
  
  Removing punctuations and numbers for textual captions also resizing images to a more unified and standard size 512*512 for a better model accuracy.
 
