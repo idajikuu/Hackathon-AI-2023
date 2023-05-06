@@ -59,6 +59,7 @@ Query =  ['Moroccan room design ideas',
  
  Removing punctuations and numbers for textual captions also resizing images to a more unified and standard size 512*512 for a better model accuracy.
  
+ <h2> 3- Deploying data in the fast diffusion model</h2>
  
  
  
