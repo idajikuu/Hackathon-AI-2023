@@ -2,8 +2,8 @@
 Firstly, we want to Thank think AI Morocco 2023 for the 3-days AI hackathon co-hosted by 1337AI and Math&amp;Maroc.
 
 <div style="display:flex;">
-  <img src="./img/img_1.png" width="50" />
-  <img src="./img/img_2.png" width="50" /> 
+  <img src="./img/img_1.png" width="100" />
+  <img src="./img/img_2.png" width="100" /> 
 </div>
 
 Welcome to our AI-powered generative interior design project, where we explore the beauty of Moroccan culture through innovative AI techniques!
