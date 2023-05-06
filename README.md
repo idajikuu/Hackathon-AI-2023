@@ -13,8 +13,11 @@ Firstly, we want to Thank think AI Morocco 2023 for the 3-days AI hackathon co-h
 </div>
  
 
-As a demonstration we put in 3 images from dormitories of UM6P in our code to generate add a moroccan touch.
-
+As a demonstration we put in 3 images from dormitories of UM6P in our code to generate the same room with an added moroccan touch.
+<div style="display:flex;">
+  <img src="./img/img_4.png" width="250" />
+  <img src="./img/img_5.png" width="250" /> 
+</div>
 Our AI-powered generative interior design is an exciting fusion of traditional Moroccan aesthetics and modern technological innovation. By leveraging the power of AI, we are able to create designs that seamlessly integrate intricate Moroccan patterns, vibrant colors, and luxurious textures, all while maintaining a strong focus on functionality and practicality.
 
 Our project consists of three main processes: data scraping, preprocessing, and diffusion 1.5. Using techniques such as data cleaning and normalization. Finally, we utilize the cutting-edge diffusion 1.5 algorithm to generate stunning, culturally-inspired interior designs.
