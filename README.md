@@ -18,4 +18,54 @@ Our project consists of three main processes: data scraping, preprocessing, and 
 
 
 
-We believe that our project has the potential to revolutionize the field of interior design, providing designers and homeowners alike with a powerful tool to effortlessly generate unique and inspiring designs that reflect the rich cultural heritage of Morocco.
+Here we put in 3 images from dormitories of UM6P in our code to generate add a moroccan touch.
+
+Scrapping 50 images from each Query 
+```python
+Query =  ['Moroccan room design ideas',
+    'Moroccan bedroom design ideas',
+    'Living room decor ideas with Moroccan touch',
+    'Moroccan style bathroom ideas',
+    'How to decorate a room in Moroccan style',
+    'Moroccan inspired living room ideas',
+    'Moroccan decor ideas for small spaces',
+    'Moroccan style furniture ideas',
+    'Moroccan interior design tips',
+    'Moroccan color scheme ideas for rooms',
+    'DIY Moroccan room decor ideas',
+    'Moroccan lighting ideas for rooms',
+    'How to create a Moroccan-inspired outdoor space',
+    'Moroccan rugs for rooms',
+    'Moroccan style curtains and drapes',
+    'Moroccan zellige tile design ideas', 
+    'Beni Ourain rug decor ideas', 
+    'Moroccan leather pouf design ideas', 
+    'Moroccan brass lanterns for decor', 
+    'Moroccan ceramic bowl decor ideas', 
+    'Moroccan wood carving design ideas', 
+    'Moroccan textile patterns for decor', 
+    'Moroccan wrought iron furniture design ideas']
+ ```   
+ In total we will have 23 Query x approx~45 that will make it 1035 images with its corresponding img {count}.txt file that will have the title of each image, and we will seperate the two into two files Bs4_Images and captions.
+ 
+ ## Preprocessing 
+ Removing punctuations and numbers for captions also resizing images to a more standard size 512*512 for a better model.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
