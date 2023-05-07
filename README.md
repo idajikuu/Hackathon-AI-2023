@@ -19,7 +19,7 @@ As a demonstration we put in 3 images from dormitories of UM6P in our code to ge
   <img src="./img/img_5.png" width="300" height="250"/> 
 </div>
 <div style="display:flex;">
-  <img src="./img/1.jpg" width="300" height="250" />
+  <img src="./img/2.jpeg" width="300" height="250" />
   <img src="./img/m1.png" width="300" height="250"/> 
 </div>
 <div style="display:flex;">
