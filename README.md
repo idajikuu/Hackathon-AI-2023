@@ -36,6 +36,8 @@ Our project consists of three main processes: data scraping, preprocessing, and 
 <h2>1- Scraping</h2>
 The first axis of the project involved scraping 45 images from each of the 23 queries related to Moroccan interior design, resulting in a total of 1035 images. For each image, a corresponding img {count}.txt file was created to store the title of the image. The data was then split into two files: Bs4_Images and captions, which were used in the preprocessing step.
 
+<br>
+
 ```python
 Query =  ['Moroccan room design ideas',
     'Moroccan bedroom design ideas',
