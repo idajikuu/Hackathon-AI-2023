@@ -62,7 +62,7 @@ Query =  ['Moroccan room design ideas',
   <img src="./img/Figure3.png" width="400" height="300" /> 
 </div>
 <div style="display:flex;">
-  <img src="./img/Figure.png"  /></div>
+  <img src="./img/Figure4.png"  width="800"  height="550" /></div>
  Removing punctuations and numbers for textual captions also resizing images to a more unified and standard size 512*512 for a better model accuracy.
 
 
